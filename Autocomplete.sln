@@ -1,0 +1,49 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autocomplete.Feed", "Autocomplete.Feed\Autocomplete.Feed.csproj", "{E2DECA9D-7FCA-48E4-8836-9B0A6AF2BE04}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autocomplete.Business", "Autocomplete.Business\Autocomplete.Business.csproj", "{E4CCDD7E-A1E7-4C19-8C48-166A9BA84376}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autocomplete.Business.Objects", "Autocomplete.Business.Objects\Autocomplete.Business.Objects.csproj", "{BBE1ED08-59EB-406C-AF61-9E6A84E65F7E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autocomplete.API", "Autocomplete.API\Autocomplete.API.csproj", "{636CAAF0-15C1-4BA7-B801-49B3E0EDF6ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9B9DB8F0-A21C-4753-865D-B50297DA4386}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2DECA9D-7FCA-48E4-8836-9B0A6AF2BE04}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E2DECA9D-7FCA-48E4-8836-9B0A6AF2BE04}.Debug|x86.Build.0 = Debug|Any CPU
+		{E2DECA9D-7FCA-48E4-8836-9B0A6AF2BE04}.Release|x86.ActiveCfg = Release|Any CPU
+		{E2DECA9D-7FCA-48E4-8836-9B0A6AF2BE04}.Release|x86.Build.0 = Release|Any CPU
+		{E4CCDD7E-A1E7-4C19-8C48-166A9BA84376}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E4CCDD7E-A1E7-4C19-8C48-166A9BA84376}.Debug|x86.Build.0 = Debug|Any CPU
+		{E4CCDD7E-A1E7-4C19-8C48-166A9BA84376}.Release|x86.ActiveCfg = Release|Any CPU
+		{E4CCDD7E-A1E7-4C19-8C48-166A9BA84376}.Release|x86.Build.0 = Release|Any CPU
+		{BBE1ED08-59EB-406C-AF61-9E6A84E65F7E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BBE1ED08-59EB-406C-AF61-9E6A84E65F7E}.Debug|x86.Build.0 = Debug|Any CPU
+		{BBE1ED08-59EB-406C-AF61-9E6A84E65F7E}.Release|x86.ActiveCfg = Release|Any CPU
+		{BBE1ED08-59EB-406C-AF61-9E6A84E65F7E}.Release|x86.Build.0 = Release|Any CPU
+		{636CAAF0-15C1-4BA7-B801-49B3E0EDF6ED}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{636CAAF0-15C1-4BA7-B801-49B3E0EDF6ED}.Debug|x86.Build.0 = Debug|Any CPU
+		{636CAAF0-15C1-4BA7-B801-49B3E0EDF6ED}.Release|x86.ActiveCfg = Release|Any CPU
+		{636CAAF0-15C1-4BA7-B801-49B3E0EDF6ED}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C5486A8-FE61-4807-94C7-CF294787897E}
+	EndGlobalSection
+EndGlobal
